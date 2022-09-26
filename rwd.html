@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsible Web design</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .bor-head{
+            margin: 10px;
+            padding: 10px;
+            background-color: brown;
+            
+        }
+        
+        
+        .bor-head a{
+            padding: 10px;
+           color: azure;
+            font-size: 20px;
+            text-decoration: none;
+            
+            
+            
+        }
+        @media screen and (max-width: 600px) {
+            
+          .bor-head  {
+            display: flex;
+            flex-direction: column;
+            background-color: gray;
+            border-radius: 30px;
+           }
+           .bor-head a{
+            background-color: darkgreen;
+            margin: 10px 0;
+            border-radius: 30px;
+            text-align: center;
+           }
+
+        }
+        .header{
+            color: dimgray;
+            background-color: burlywood;
+        }
+        .nav{
+            background-color: aquamarine;
+            padding: 10px 0;
+            margin: 10px 0;
+        }
+        .nav a{
+            margin: 10px;
+            padding: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 10px 10px;
+            
+        }
+        .coloum{
+            background-color: cadetblue;
+        }
+        @media screen and (max-width:600px){
+            .nav{
+                display: flex;
+                flex-direction: column;
+            }
+            .nav a{
+                background-color: coral;
+                text-align: center;
+               
+                margin: 10px 0;
+                border-radius: 30%;
+                
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bor-head">
+       
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Tutorial</a>
+
+    </div>
+    <div class="nav-menu">
+        <div class="header">
+            <h1>Learn With Zahid</h1>
+        </div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+
+        </div>
+        <div class="coloum">
+            <h1>I am a Web Developer</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quaerat eos sit consequatur magni et blanditiis accusamus impedit vero numquam.</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>
